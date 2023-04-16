@@ -55,58 +55,73 @@
       <title>ADDIE Model</title>
       <item identifier="ADDIE_Model_SCO" isvisible="true" identifierref="__62EjRL8cHv5_RES">
         <title>ADDIE Model</title>
+        <adlcp:masteryscore>80</adlcp:masteryscore>
       </item>
     </organization>
   </organizations>
   <resources>
     <resource identifier="__62EjRL8cHv5_RES" type="webcontent" href="index_lms.html" adlcp:scormtype="sco">
       <file href="story_content/thumbnail.jpg" />
-      <file href="mobile/6GBaAt7cI4t_80_P_71_43_1142_617_DX1612_DY1612_CX1133_CY612.jpg" />
-      <file href="mobile/5sAKcgqsCVS_80_DX870_DY870_CX667_CY684.png" />
-      <file href="mobile/6qtkXhhbndI_80_DX1440_DY1440_CX1132_CY849.jpg" />
-      <file href="mobile/6bCJbEfCzXv_80_P_0_0_1600_1200_DX1800_DY1800_CX1132_CY849.jpg" />
-      <file href="mobile/5oxeVzpNjHK_80_P_0_0_2048_91_DX1722_DY1722_CX1166_CY52.jpg" />
-      <file href="mobile/5oxeVzpNjHK_80_DX1722_DY1722_CX1166_CY770.jpg" />
-      <file href="mobile/6XeOSF2hxNh_80_P_130_0_1917_1392_DX1542_DY1542_CX1136_CY825.jpg" />
-      <file href="mobile/66TsMEnlRaG_80_P_101_0_1824_1367_DX1616_DY1616_CX1133_CY849.jpg" />
-      <file href="mobile/6XSiCdm0hgS_80_B10_DX1440_DY1440_CX1133_CY755.jpg" />
-      <file href="mobile/5VGq3w1AD4N_80_B-20_DX712_DY712_CX356_CY174.png" />
+      <file href="mobile/6GBaAt7cI4t_80_P_71_43_1142_617.jpg" />
+      <file href="mobile/6qtkXhhbndI_80.jpg" />
+      <file href="mobile/6bCJbEfCzXv_80_P_0_0_1600_1200.jpg" />
+      <file href="mobile/5oxeVzpNjHK_80_P_0_0_2048_91.jpg" />
+      <file href="mobile/5oxeVzpNjHK_80.jpg" />
+      <file href="mobile/6XeOSF2hxNh_80_P_130_0_1917_1392.jpg" />
+      <file href="mobile/66TsMEnlRaG_80_P_101_0_1824_1367.jpg" />
+      <file href="mobile/6XSiCdm0hgS_80_B10.jpg" />
+      <file href="mobile/5VGq3w1AD4N_B-20.png" />
       <file href="meta.xml" />
+      <file href="mobile/5ZCmS9Vq0OV.png" />
       <file href="story_content/user.js" />
       <file href="mobile/Shape6VGmIcpU3vW.png" />
       <file href="mobile/Shape6NaTGCiXxzx.png" />
       <file href="mobile/Shape6kzOcoo0x6N.png" />
-      <file href="mobile/Shape5kplnshbxsU.png" />
-      <file href="mobile/Shape5iIoxyQbQ6m.png" />
+      <file href="mobile/Shape5opVnCkoeoO.png" />
+      <file href="mobile/Shape6QUaXPyfsoW.png" />
       <file href="mobile/Shape6ahkjSmwYd3.png" />
-      <file href="mobile/Shape5yVs8YI71iX.png" />
+      <file href="mobile/Shape5gY2hqyX28O.png" />
       <file href="mobile/Shape6j2Od6kd8SL.png" />
       <file href="mobile/Shape6XMkKHgI6CH.png" />
       <file href="mobile/Shape6KxieOpkgkp.png" />
       <file href="html5/data/css/output.min.css" />
       <file href="html5/data/js/5anVai7RmnW.js" />
+      <file href="html5/data/js/5c20mG8Y28y.js" />
+      <file href="html5/data/js/5jDGnl1gj3V.js" />
       <file href="html5/data/js/5nC01oyyuvH.js" />
       <file href="html5/data/js/5oxA1gPh4aN.js" />
+      <file href="html5/data/js/5qj2OAgRnmW.js" />
+      <file href="html5/data/js/5riwTeBtMkX.js" />
       <file href="html5/data/js/5rkOvm6vyrw.js" />
+      <file href="html5/data/js/5W3MKO5W70x.js" />
       <file href="html5/data/js/5XepFY2bDof.js" />
       <file href="html5/data/js/5yQLxx7Xwzg.js" />
       <file href="html5/data/js/5z3sJDlAbHq.js" />
+      <file href="html5/data/js/5Z8w6jLXbOw.js" />
+      <file href="html5/data/js/5ztqEg21dzG.js" />
       <file href="html5/data/js/63MgTQQqbLN.js" />
       <file href="html5/data/js/66HJ0i1rs7e.js" />
       <file href="html5/data/js/66MM7tnYXxG.js" />
+      <file href="html5/data/js/68qZDyA350Y.js" />
+      <file href="html5/data/js/69hiIK0J5TD.js" />
       <file href="html5/data/js/6A3yyYr2cBu.js" />
-      <file href="html5/data/js/6amsODUjUGD.js" />
       <file href="html5/data/js/6aO99aJgKZO.js" />
       <file href="html5/data/js/6Bq9vNS4M6x.js" />
+      <file href="html5/data/js/6cGwO6vTC7x.js" />
       <file href="html5/data/js/6cL9DsaeXlL.js" />
+      <file href="html5/data/js/6e4NK9O5keC.js" />
       <file href="html5/data/js/6EcBexRgvdy.js" />
       <file href="html5/data/js/6EzMck7RZyn.js" />
       <file href="html5/data/js/6Hid5zvrHM2.js" />
       <file href="html5/data/js/6IlOpO7dMy3.js" />
+      <file href="html5/data/js/6IvMwc4ZmC6.js" />
+      <file href="html5/data/js/6L9Q9z9a64l.js" />
       <file href="html5/data/js/6nmoZtr0BQi.js" />
+      <file href="html5/data/js/6ogagkagZau.js" />
       <file href="html5/data/js/data.js" />
       <file href="html5/data/js/frame.js" />
       <file href="html5/data/js/paths.js" />
+      <file href="html5/lib/hls/hls.min.js" />
       <file href="html5/lib/scripts/bootstrapper.min.js" />
       <file href="html5/lib/scripts/frame.desktop.min.js" />
       <file href="html5/lib/scripts/frame.mobile.min.js" />

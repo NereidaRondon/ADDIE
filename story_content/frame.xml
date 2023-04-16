@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
-<bwFrame xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" default_layout="npxnabnsnfns00000000101" textdirection="ltr" textengine="DirectWrite" device="false" fontscale="100" captionFontScale="100" kbshortcuts="false" skip_nav_enabled="true" chromeless="false" outputtype="undefined" theme="unified" themeAccentColor="0x4FBDF4">
+<bwFrame xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" default_layout="npxnabnsnfns01000000001" textdirection="ltr" textengine="DirectWrite" device="false" fontscale="100" captionFontScale="100" kbshortcuts="false" skip_nav_enabled="true" chromeless="false" outputtype="undefined" theme="unified" themeAccentColor="0x7030A0">
   <layouts>
-    <layout name="npnxnanbsnfns00000000101" font="Lato" controllayout="npnxnanbsnfns00000000101" colorscheme="npxnabnsnfns00000000101" string_table="npxnabnsnfns00000000101" />
-    <layout name="pxabnsnfns00000000101" font="Lato" controllayout="pxabnsnfns00000000101" colorscheme="npxnabnsnfns00000000101" string_table="npxnabnsnfns00000000101" />
-    <layout name="npxnabnsnfns00000000101" font="Lato" controllayout="npxnabnsnfns00000000101" colorscheme="npxnabnsnfns00000000101" string_table="npxnabnsnfns00000000101" />
-    <layout name="npnxnanbnsnfns00000000101" font="Lato" controllayout="npnxnanbnsnfns00000000101" colorscheme="npxnabnsnfns00000000101" string_table="npxnabnsnfns00000000101" />
-    <layout name="pxabnsnfns00000000100" font="Lato" controllayout="pxabnsnfns00000000100" colorscheme="npxnabnsnfns00000000101" string_table="npxnabnsnfns00000000101" />
-    <layout name="pnxanbnsnfns00000000101" font="Lato" controllayout="pnxanbnsnfns00000000101" colorscheme="npxnabnsnfns00000000101" string_table="npxnabnsnfns00000000101" />
+    <layout name="npnxnanbsnfns01000000001" font="Articulate Light" controllayout="npnxnanbsnfns01000000001" colorscheme="npxnabnsnfns01000000001" string_table="npxnabnsnfns01000000001" />
+    <layout name="pxabnsnfns01000000001" font="Articulate Light" controllayout="pxabnsnfns01000000001" colorscheme="npxnabnsnfns01000000001" string_table="npxnabnsnfns01000000001" />
+    <layout name="npxnabnsnfns01000000001" font="Articulate Light" controllayout="npxnabnsnfns01000000001" colorscheme="npxnabnsnfns01000000001" string_table="npxnabnsnfns01000000001" />
+    <layout name="npnxnanbnsnfns01000000001" font="Articulate Light" controllayout="npnxnanbnsnfns01000000001" colorscheme="npxnabnsnfns01000000001" string_table="npxnabnsnfns01000000001" />
+    <layout name="pxabnsnfns01000000000" font="Articulate Light" controllayout="pxabnsnfns01000000000" colorscheme="npxnabnsnfns01000000001" string_table="npxnabnsnfns01000000001" />
+    <layout name="pnxanbnsnfns01000000001" font="Articulate Light" controllayout="pnxanbnsnfns01000000001" colorscheme="npxnabnsnfns01000000001" string_table="npxnabnsnfns01000000001" />
   </layouts>
   <control_options>
     <optiongroups>
@@ -17,10 +17,13 @@
               <option name="title_text" value="ADDIE Model" />
             </options>
           </option>
-          <option name="logo_enabled" value="false">
-            <options />
+          <option name="logo_enabled" value="true">
+            <options>
+              <option name="logo_url" />
+              <option name="html5_logo_url" value="mobile/5ZCmS9Vq0OV.png" />
+            </options>
           </option>
-          <option name="sidebar_enabled" value="false">
+          <option name="sidebar_enabled" value="true">
             <options>
               <option name="sidebarpos" value="left" />
               <option name="closed" value="false" />
@@ -29,14 +32,14 @@
           <optionlist name="tabs">
             <listitems>
               <listitem name="resources" value="false" group="linkright" />
-              <listitem name="outline" value="false" group="sidebar" />
+              <listitem name="outline" value="true" group="sidebar" />
               <listitem name="glossary" value="false" group="sidebar" />
               <listitem name="transcript" value="false" group="sidebar" />
             </listitems>
           </optionlist>
           <option name="time_enabled" value="false">
             <options>
-              <option name="time_format" value="" />
+              <option name="time_format" value="none" />
             </options>
           </option>
           <option name="video_enabled" value="false">
@@ -44,7 +47,7 @@
               <option name="height" value="135" />
             </options>
           </option>
-          <option name="logoAltText" />
+          <option name="logoAltText" value="Nereida Rondon" />
         </options>
       </optiongroup>
       <optiongroup name="menuoptions">
@@ -59,7 +62,7 @@
       </optiongroup>
       <optiongroup name="controls">
         <options>
-          <option name="volume" value="true" />
+          <option name="volume" value="false" />
           <option name="seekbar" value="false">
             <options>
               <option name="readonly" value="false" />
@@ -69,12 +72,14 @@
           <option name="pauseplay" value="false" />
           <option name="replay" value="false" />
           <option name="search" value="false" />
-          <option name="closed_captions" value="true">
+          <option name="closed_captions" value="false">
             <options>
-              <option name="font" value="Lato" />
+              <option name="font" value="Articulate Light" />
             </options>
           </option>
           <option name="settings" value="true" />
+          <option name="fullScreenToggle" value="true" />
+          <option name="playbackSpeedControl" value="false" />
         </options>
       </optiongroup>
       <optiongroup name="bottombaroptions">
@@ -92,16 +97,18 @@
     </optiongroups>
   </control_options>
   <control_layouts>
-    <control_layout name="npnxnanbsnfns00000000101">
-      <control name="volume" enabled="true" />
+    <control_layout name="npnxnanbsnfns01000000001">
+      <control name="volume" enabled="false" />
       <control name="seekbar" enabled="false" />
       <control name="replay" enabled="false" />
       <control name="pauseplay" enabled="false" />
-      <control name="logo" enabled="false" />
+      <control name="logo" enabled="true" />
       <control name="previous" enabled="false" />
       <control name="next" enabled="false" />
       <control name="swipeleft" enabled="false" />
       <control name="swiperight" enabled="false" />
+      <control name="fullScreenToggle" enabled="true" />
+      <control name="playbackSpeedControl" enabled="false" />
       <control name="submit" enabled="true" />
       <control name="finish" enabled="false" />
       <control name="submitall" enabled="false" />
@@ -115,16 +122,18 @@
       </control>
       <control name="close_btn" enabled="true" />
     </control_layout>
-    <control_layout name="pxabnsnfns00000000101">
-      <control name="volume" enabled="true" />
+    <control_layout name="pxabnsnfns01000000001">
+      <control name="volume" enabled="false" />
       <control name="seekbar" enabled="false" />
       <control name="replay" enabled="false" />
       <control name="pauseplay" enabled="false" />
-      <control name="logo" enabled="false" />
+      <control name="logo" enabled="true" />
       <control name="previous" enabled="true" />
       <control name="next" enabled="true" />
       <control name="swipeleft" enabled="true" />
       <control name="swiperight" enabled="true" />
+      <control name="fullScreenToggle" enabled="true" />
+      <control name="playbackSpeedControl" enabled="false" />
       <control name="submit" enabled="false" />
       <control name="finish" enabled="false" />
       <control name="submitall" enabled="false" />
@@ -138,16 +147,18 @@
       </control>
       <control name="close_btn" enabled="true" />
     </control_layout>
-    <control_layout name="npxnabnsnfns00000000101">
-      <control name="volume" enabled="true" />
+    <control_layout name="npxnabnsnfns01000000001">
+      <control name="volume" enabled="false" />
       <control name="seekbar" enabled="false" />
       <control name="replay" enabled="false" />
       <control name="pauseplay" enabled="false" />
-      <control name="logo" enabled="false" />
+      <control name="logo" enabled="true" />
       <control name="previous" enabled="false" />
       <control name="next" enabled="true" />
       <control name="swipeleft" enabled="false" />
       <control name="swiperight" enabled="true" />
+      <control name="fullScreenToggle" enabled="true" />
+      <control name="playbackSpeedControl" enabled="false" />
       <control name="submit" enabled="false" />
       <control name="finish" enabled="false" />
       <control name="submitall" enabled="false" />
@@ -161,16 +172,18 @@
       </control>
       <control name="close_btn" enabled="true" />
     </control_layout>
-    <control_layout name="npnxnanbnsnfns00000000101">
-      <control name="volume" enabled="true" />
+    <control_layout name="npnxnanbnsnfns01000000001">
+      <control name="volume" enabled="false" />
       <control name="seekbar" enabled="false" />
       <control name="replay" enabled="false" />
       <control name="pauseplay" enabled="false" />
-      <control name="logo" enabled="false" />
+      <control name="logo" enabled="true" />
       <control name="previous" enabled="false" />
       <control name="next" enabled="false" />
       <control name="swipeleft" enabled="false" />
       <control name="swiperight" enabled="false" />
+      <control name="fullScreenToggle" enabled="true" />
+      <control name="playbackSpeedControl" enabled="false" />
       <control name="submit" enabled="false" />
       <control name="finish" enabled="false" />
       <control name="submitall" enabled="false" />
@@ -184,16 +197,18 @@
       </control>
       <control name="close_btn" enabled="true" />
     </control_layout>
-    <control_layout name="pxabnsnfns00000000100">
-      <control name="volume" enabled="true" />
+    <control_layout name="pxabnsnfns01000000000">
+      <control name="volume" enabled="false" />
       <control name="seekbar" enabled="false" />
       <control name="replay" enabled="false" />
       <control name="pauseplay" enabled="false" />
-      <control name="logo" enabled="false" />
+      <control name="logo" enabled="true" />
       <control name="previous" enabled="true" />
       <control name="next" enabled="true" />
       <control name="swipeleft" enabled="true" />
       <control name="swiperight" enabled="true" />
+      <control name="fullScreenToggle" enabled="true" />
+      <control name="playbackSpeedControl" enabled="false" />
       <control name="submit" enabled="false" />
       <control name="finish" enabled="false" />
       <control name="submitall" enabled="false" />
@@ -207,16 +222,18 @@
       </control>
       <control name="close_btn" enabled="false" />
     </control_layout>
-    <control_layout name="pnxanbnsnfns00000000101">
-      <control name="volume" enabled="true" />
+    <control_layout name="pnxanbnsnfns01000000001">
+      <control name="volume" enabled="false" />
       <control name="seekbar" enabled="false" />
       <control name="replay" enabled="false" />
       <control name="pauseplay" enabled="false" />
-      <control name="logo" enabled="false" />
+      <control name="logo" enabled="true" />
       <control name="previous" enabled="true" />
       <control name="next" enabled="false" />
       <control name="swipeleft" enabled="true" />
       <control name="swiperight" enabled="false" />
+      <control name="fullScreenToggle" enabled="true" />
+      <control name="playbackSpeedControl" enabled="false" />
       <control name="submit" enabled="false" />
       <control name="finish" enabled="false" />
       <control name="submitall" enabled="false" />
@@ -232,7 +249,7 @@
     </control_layout>
   </control_layouts>
   <colorschemes>
-    <colorscheme name="npxnabnsnfns00000000101">
+    <colorscheme name="npxnabnsnfns01000000001">
       <color_group name="accessibility">
         <group_colors>
           <color name="focus_rect">
@@ -256,7 +273,7 @@
           <color name="htmlpage_bg_color">
             <fill type="linear" rotation="90">
               <colors>
-                <color rgb="0x1D1E27" alpha="100" stop="0" />
+                <color rgb="0x1F232C" alpha="100" stop="0" />
               </colors>
             </fill>
           </color>
@@ -426,7 +443,7 @@
           <color name="bg">
             <fill type="linear" rotation="90">
               <colors>
-                <color rgb="0x17181F" alpha="100" stop="0" />
+                <color rgb="0x1A1D24" alpha="100" stop="0" />
               </colors>
             </fill>
           </color>
@@ -454,7 +471,7 @@
           <color name="border">
             <fill type="linear" rotation="90">
               <colors>
-                <color rgb="0x353848" alpha="100" stop="0" />
+                <color rgb="0x383E4D" alpha="100" stop="0" />
               </colors>
             </fill>
           </color>
@@ -778,7 +795,7 @@
           <color name="panel_bg">
             <fill type="linear" rotation="90">
               <colors>
-                <color rgb="0x17181F" alpha="100" stop="0" />
+                <color rgb="0x1A1D24" alpha="100" stop="0" />
               </colors>
             </fill>
           </color>
@@ -1011,7 +1028,7 @@
           <color name="bg">
             <fill type="linear" rotation="90">
               <colors>
-                <color rgb="0x17181F" alpha="100" stop="0" />
+                <color rgb="0x1A1D24" alpha="100" stop="0" />
               </colors>
             </fill>
           </color>
@@ -1033,7 +1050,7 @@
           <color name="border">
             <fill type="linear" rotation="90">
               <colors>
-                <color rgb="0x353848" alpha="100" stop="0" />
+                <color rgb="0x383E4D" alpha="100" stop="0" />
               </colors>
             </fill>
           </color>
@@ -1175,7 +1192,7 @@
           <color name="brandhighlight">
             <fill type="linear" rotation="90">
               <colors>
-                <color rgb="0x4FBDF4" alpha="100" stop="0" />
+                <color rgb="0x7030A0" alpha="100" stop="0" />
               </colors>
             </fill>
           </color>
@@ -1210,7 +1227,7 @@
           <color name="diva">
             <fill type="linear" rotation="90">
               <colors>
-                <color rgb="0x353848" alpha="100" stop="0" />
+                <color rgb="0x383E4D" alpha="100" stop="0" />
               </colors>
             </fill>
           </color>
@@ -1224,28 +1241,28 @@
           <color name="menu_shade">
             <fill type="linear" rotation="90">
               <colors>
-                <color rgb="0x17181F" alpha="100" stop="0" />
+                <color rgb="0x1A1D24" alpha="100" stop="0" />
               </colors>
             </fill>
           </color>
           <color name="border">
             <fill type="linear" rotation="90">
               <colors>
-                <color rgb="0x1D1E27" alpha="100" stop="0" />
+                <color rgb="0x1F232C" alpha="100" stop="0" />
               </colors>
             </fill>
           </color>
           <color name="bg">
             <fill type="linear" rotation="90">
               <colors>
-                <color rgb="0x1D1E27" alpha="100" stop="0" />
+                <color rgb="0x1F232C" alpha="100" stop="0" />
               </colors>
             </fill>
           </color>
           <color name="slide_bg">
             <fill type="linear" rotation="90">
               <colors>
-                <color rgb="0x1D1E27" alpha="100" stop="0" />
+                <color rgb="0x1F232C" alpha="100" stop="0" />
               </colors>
             </fill>
           </color>
@@ -1291,7 +1308,7 @@
           <color name="panel_bg">
             <fill type="linear" rotation="90">
               <colors>
-                <color rgb="0x17181F" alpha="100" stop="0" />
+                <color rgb="0x1A1D24" alpha="100" stop="0" />
               </colors>
             </fill>
           </color>
@@ -1319,7 +1336,7 @@
           <color name="toggle_track_on">
             <fill type="linear" rotation="90">
               <colors>
-                <color rgb="0x4FBDF4" alpha="100" stop="0" />
+                <color rgb="0x7030A0" alpha="100" stop="0" />
               </colors>
             </fill>
           </color>
@@ -1340,7 +1357,7 @@
           <color name="settings_border_color">
             <fill type="linear" rotation="90">
               <colors>
-                <color rgb="0x353848" alpha="100" stop="0" />
+                <color rgb="0x383E4D" alpha="100" stop="0" />
               </colors>
             </fill>
           </color>
@@ -1351,7 +1368,7 @@
           <color name="panel_bg">
             <fill type="linear" rotation="90">
               <colors>
-                <color rgb="0x17181F" alpha="100" stop="0" />
+                <color rgb="0x1A1D24" alpha="100" stop="0" />
               </colors>
             </fill>
           </color>
@@ -1400,7 +1417,7 @@
           <color name="volume_border_color">
             <fill type="linear" rotation="90">
               <colors>
-                <color rgb="0x353848" alpha="100" stop="0" />
+                <color rgb="0x383E4D" alpha="100" stop="0" />
               </colors>
             </fill>
           </color>
@@ -1409,7 +1426,7 @@
     </colorscheme>
   </colorschemes>
   <string_tables>
-    <string_table name="npxnabnsnfns00000000101">
+    <string_table name="npxnabnsnfns01000000001">
       <string id="three_image_progress_audio">progress</string>
       <string id="three_image_audio">audio</string>
       <string id="three_image_camera_down">camera moved down</string>
@@ -1442,13 +1459,31 @@
       <string id="three_image_progress_video">progress</string>
       <string id="three_image_video">video</string>
       <string id="three_image_video_volume">video volume</string>
-      <string id="three_image_view_image">view image</string>
       <string id="acc_three_image_count_of_total_items_visited">%count% of %total% items visited</string>
       <string id="acc_three_image_count_of_total_item_visited">%count% of %total% item visited</string>
       <string id="three_image_count_of_total_visited">%count% of %total% visited</string>
       <string id="accessible_text">Accessible text</string>
+      <string id="background_audio">Background audio</string>
+      <string id="acc_enter_fullscreen">Enter full-screen mode</string>
+      <string id="acc_exit_fullscreen">Exit full-screen mode</string>
       <string id="keyboardshortcuts_lower">Keyboard shortcuts</string>
       <string id="zoom_to_fit">Zoom to fit</string>
+      <string id="modern_video_settings_close">close video settings</string>
+      <string id="acc_modern_video_fullscreen">full-screen video</string>
+      <string id="modern_video_playback_settings">Video Playback Settings</string>
+      <string id="modern_video_captions_off">Off</string>
+      <string id="modern_video_captions_on">On</string>
+      <string id="modern_video_captions_label">Captions</string>
+      <string id="acc_modern_video_settings">video settings</string>
+      <string id="acc_modern_video_mute">mute video</string>
+      <string id="modern_video_normal_speed">Normal</string>
+      <string id="acc_modern_video_pause">pause video</string>
+      <string id="acc_modern_video_pip">picture-in-picture</string>
+      <string id="acc_modern_video_play">play video</string>
+      <string id="modern_video_playback_speed_title">Playback Speed</string>
+      <string id="acc_modern_video_captions">video captions</string>
+      <string id="acc_modern_video_playback_speed">playback speed</string>
+      <string id="acc_modern_video_volume">video volume</string>
       <string id="acc_active">active</string>
       <string id="alt_key">Alt</string>
       <string id="check_include">Check to include</string>
@@ -1458,6 +1493,9 @@
       <string id="closed_captions_tip">Toggle captions</string>
       <string id="continue">Continue</string>
       <string id="continueresponsive">Continue</string>
+      <string id="playback_speed_title">Playback Speed</string>
+      <string id="playback_speed_normal">Normal</string>
+      <string id="acc_playback_speed">playback speed</string>
       <string id="ctrl_key">Ctrl</string>
       <string id="enable_keyboardshortcuts">Enable keyboard shortcuts</string>
       <string id="enter_key">Enter</string>
@@ -1482,7 +1520,9 @@
       <string id="shortcut">Shortcut</string>
       <string id="submit_shortcut">Submit slide</string>
       <string id="acctext_shortcut">Toggle accessible text</string>
+      <string id="background_audio_shortcut">Toggle background audio</string>
       <string id="closedcaptions_shortcut">Toggle closed captions</string>
+      <string id="fullscreen_shortcut">Toggle full-screen mode</string>
       <string id="togglezoom">Toggle zoom to fit</string>
       <string id="outline">Menu</string>
       <string id="disabled_orientation">Please rotate your device</string>
@@ -1530,19 +1570,33 @@
       <string id="acc_skipnavigation">Back to top</string>
       <string id="slide_text_chk">Slide Text</string>
       <string id="spacebar_key">Space</string>
+      <string id="streaming_video_local_playback_learn_more">Learn More</string>
+      <string id="streaming_video_local_playback_republish">To watch this video, use the preview feature in Storyline 360, upload your published output to a server, publish to Review 360, or switch to static video quality.</string>
+      <string id="streaming_video_local_playback_title">Streaming video is unavailable for local playback.</string>
       <string id="submitall">SUBMIT ALL</string>
       <string id="acc_submitall">submit all</string>
       <string id="submit">SUBMIT</string>
       <string id="acc_submit">submit</string>
       <string id="submit_tip">Submit</string>
       <string id="unmute_tip">Unmute</string>
+      <string id="transcript_auto_scroll">Autoscroll</string>
+      <string id="acc_window_close">Close</string>
+      <string id="acc_video_transcript_list">Transcipt</string>
+      <string id="acc_window_move">Move window</string>
+      <string id="acc_modern_video_transcript">Open</string>
+      <string id="acc_window_resize">Resize window</string>
+      <string id="video_transcript_resume_autoscroll">Resume autoscroll</string>
+      <string id="video_transcript_select_track">Select track</string>
+      <string id="transcript_show_timestamp">Show timestamps</string>
+      <string id="video_transcript_title">Transcripts</string>
+      <string id="acc_window_options">Options</string>
       <string id="acc_volume">volume</string>
     </string_table>
   </string_tables>
   <fonts>
-    <font name="Lato">
+    <font name="Articulate Light">
       <files>
-        <file bold="true" italic="false" />
+        <file bold="false" italic="false" />
         <file bold="false" italic="false" />
       </files>
     </font>
@@ -1554,9 +1608,11 @@
         <slidelink slideid="_player.6ngP6UpRLl3" displaytext="Untitled Scene" expand="true" type="slide">
           <links>
             <slidelink slideid="_player.6ngP6UpRLl3.6A3yyYr2cBu" displaytext="Untitled Slide" expand="false" type="slide" />
+            <slidelink slideid="_player.6ngP6UpRLl3.5c20mG8Y28y" displaytext="Untitled Slide" expand="false" type="slide" />
             <slidelink slideid="_player.6ngP6UpRLl3.66HJ0i1rs7e" displaytext="Untitled Slide" expand="false" type="slide" />
-            <slidelink slideid="_player.6ngP6UpRLl3.6amsODUjUGD" displaytext="Untitled Slide" expand="false" type="slide" />
+            <slidelink slideid="_player.6ngP6UpRLl3.5jDGnl1gj3V" displaytext="Which of the following are phases of ADDIE? Select all that apply." expand="false" type="slide" />
             <slidelink slideid="_player.6ngP6UpRLl3.5XepFY2bDof" displaytext="Blinds" expand="false" type="slide" />
+            <slidelink slideid="_player.6ngP6UpRLl3.6aO99aJgKZO" displaytext="Match each activity on the right to the phase of the ADDIE model to which it belongs." expand="false" type="slide" />
             <slidelink slideid="_player.6ngP6UpRLl3.6EcBexRgvdy" displaytext="Untitled Slide" expand="false" type="slide" />
             <slidelink slideid="_player.6ngP6UpRLl3.6Bq9vNS4M6x" displaytext="Untitled Slide" expand="false" type="slide" />
             <slidelink slideid="_player.6ngP6UpRLl3.6nmoZtr0BQi" displaytext="Untitled Slide" expand="false" type="slide" />
@@ -1572,7 +1628,7 @@
             <slidelink slideid="_player.6ngP6UpRLl3.5anVai7RmnW" displaytext="Untitled Slide" expand="false" type="slide" />
             <slidelink slideid="_player.6ngP6UpRLl3.6Hid5zvrHM2" displaytext="Untitled Slide" expand="false" type="slide" />
             <slidelink slideid="_player.6ngP6UpRLl3.6IlOpO7dMy3" displaytext="Untitled Slide" expand="false" type="slide" />
-            <slidelink slideid="_player.6ngP6UpRLl3.6aO99aJgKZO" displaytext="Match each activity on the right to the phase of the ADDIE model to which it belongs." expand="false" type="slide" />
+            <slidelink slideid="_player.6ngP6UpRLl3.6GpZmzuEFX0" displaytext="Draw from ADDIE Bank" expand="false" type="slide" />
           </links>
         </slidelink>
       </links>
